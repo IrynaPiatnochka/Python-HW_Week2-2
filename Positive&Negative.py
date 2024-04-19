@@ -8,7 +8,7 @@ reviews = [ "This product is really good I'm impressed with its quality.",
 
 def count_pos(reviews):
     positive_counter = 0
-    positive = ["good", "excellent"]
+    positive = ["good", "excellent", "great", "awesome", "fantastic", "superb", "amazing"]
     for review in reviews:
         
         print(review)
@@ -30,7 +30,7 @@ reviews = [ "This product is really good I'm impressed with its quality.",
 
 def count_neg(reviews):
     negative_counter = 0
-    negative = ["poor", "bad", "average"]
+    negative = ["poor", "bad", "terrible", "horrible", "awful", "disappointing", "subpar"]
     for review in reviews:
         print(review)
         for neg in review.split(" "):
